@@ -1,3 +1,3 @@
 export const appConfig = {
-  TWITTER_LINK: "https://x.com",
+  TWITTER_LINK: "https://x.com/OboLabs",
 };
