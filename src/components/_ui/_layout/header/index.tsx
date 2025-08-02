@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex items-center justify-between p-8 relative">
         <div className="text-3xl font-extrabold text-white"></div>
         <div>
-          <a href={appConfig.TWITTER_LINK} target="_blank">
+          <a href={https://x.com/OboLabs} target="_blank">
             <Button>
               <Icons name="twitter" />
             </Button>
