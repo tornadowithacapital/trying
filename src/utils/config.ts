@@ -1,3 +1,3 @@
 export const social = {
-  twitter: "https://x.com/",
+  twitter: "https://x.com/OboLabs",
 };
