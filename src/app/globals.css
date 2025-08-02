@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ededed;
+  --primary: #4df5a5;
+  --grey: #ededed;
+  --dark-grey: #a9a9a9;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-grey: var(--grey);
+  --color-dark-grey: var(--dark-grey);
+}
+
+body {
+  background: var(--background);
+  color: #ededed;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+html,
+body {
+  overflow: auto;
+}
